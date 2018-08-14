@@ -1,102 +1,118 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Responsive Landing Page Template With Flexbox</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Brandon B. Portfolio</title>
+    <meta name="author" content="Brandon Budron" />
+    <meta name="description" content="Brandon budron portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="src/examples.css" />
 </head>
-
 <body>
 
-	<header>
-		<h2><a href="#">Brandon Budron</a></h2>
-		<h2><a href="#">brandonbudron@gmail.com</a></h2>
-	</header>
+    <div class="header">
 
-	<img src="assets/img/stripe-1.png" id="stripe-1"/>
+    <div class="nav">
+        <div class="nav-btn" data-menuanchor="bio" class="active"><a class="nav-item" href="#bio">ME <i class="fa fa-address-card" aria-hidden="true"></i></a></div>
+        <div class="nav-btn" data-menuanchor="projects"><a class="nav-item" href="#projects">CODE <i class="fa fa-code" aria-hidden="true"></i></a></div>
+        <div class="nav-btn" data-menuanchor="history"><a class="nav-item" href="#history">RESUME <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></div>
+        <div class="nav-btn" data-menuanchor="contact"><a class="nav-item" href="#contact">CONTACT <i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+    </div>
 
-	<section class="hero">
-		<div>
-			<div class="background-image" style="background-color: white;"></div>
-			<h1>Brandon Budron</h1>
-			<h3>full stack web developer</h3>
-		</div>
-	</section>
-
-	<section class="our-work">
-		<!--<img src="assets/img/stripe-2.png" id="stripe-2"/>-->
-		<div id="stripe-3"></div>
-		<h3 class="title">Personal Projects</h3>
-		<hr>
-
-		<h2>Game Guide</h2>
-		<ul class="grid">
-			<li class="small" style="background-image: url(assets/img/image.jpg);"></li>
-			<li class="large" style="background-image: url(assets/img/mac.jpg);"></li>
-		</ul>
-		<hr>
-		<h2>Personal</h2>
-		<ul class="grid">
-			<li class="large" style="background-image: url(assets/img/mac.jpg);"></li>
-			<li class="small" style="background-image: url(assets/img/image.jpg);"></li>
-		</ul>
-	</section>
-	<!-- <a href="#" class="btn">Subscribe now</a> -->
-
-	<section class="features">
-		<h3 class="title">Mini Projects</h3>
-		<p>Sites that I built to practice my skills in ...</p>
-		<hr>
-
-		<ul class="grid">
-			<li>
-				<i class="fa fa-cubes"></i>
-				<h4>Site 1</h4>
-				<p>Lorem ipsum dolor id felis et ipsum bibendum ultrices vitae pulvinar.</p>
-			</li>
-			<li>
-				<i class="fa fa-cubes"></i>
-				<h4>Site 2</h4>
-				<p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam id ultrices vitae.</p>
-			</li>
-			<li>
-				<i class="fa fa-cubes"></i>
-				<h4>Site 3</h4>
-				<p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam id felis et ipsum.</p>
-			</li>
-		</div>
-	</section>
+    </div>
 
 
-	<section class="reviews">
-		<h3 class="title">Education</h3>
+    <div id="fullpage">
 
-		<p class="quote">Lorem ipsum dolor id felis et ipsum bibendum ultrices vitae pulvinar.</p>
-		<p class="author">— UCF —</p>
+        <div class="section" id="section0">
+            <div class="container-me">
+                <div class="container-left">
+                    <div class="profilepic"></div>
+                    <h1>Brandon Budron</h1>
+                    <h2>web dev</h2>
+                </div>
+                <div class="container-right">
+                    <p class="aboutme">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+        </div>
 
-		<p class="quote">Lorem ipsum dolor sit amet, adipiscing elit. Nullam id ultrices vitae.</p>
-		<p class="author">— Valencia College</p>
+        <div class="section" id="section1">
+            <div class="container-code">
+                <h1 class="code-title">Projects</h1>
 
-		<p class="quote">Lorem ipsum dolor sit amet, adipiscing elit. Nullam id felis et ipsum.</p>
-		<p class="author">— UCF Fullstack Coding Bootcamp</p>
-	</section>
+                <div class="slide" id="slide2">
+                    <div class="container-code2">
+                        <div class="container-code2-1"></div>
+                        <div class="container-code2-2"></div>
+                        <div class="columns-code2">
+                            <div class="column-code2"></div>
+                            <div class="column-code2"></div>
+                            <div class="column-code2"></div>
+                        </div>
+                    </div>
+                </div>
 
-	<footer>
-		<ul>
-			<li><a href="#"><i class="fa fa-envelope-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-		</ul>
-		<p><i class="fa fa-copyright"></i> 2018 - Brandon Budron</p>
-	</footer>
+
+                <div class="slide" id="slide1">
+                    <div class="container-code1">
+                    <div class="container-code1-1">
+                        <div class="code1-1-image"></div>
+                        <div class="container-code1-1-information">
+                            <h2 class="code1-1-title">TEST TITLE</h2>
+                        </div>
+                    </div>
+                    <div class="container-code1-2">
+                        <div class="code1-2-image"></div>
+                        <div class="container-code1-2-information">
+                            <h2 class="code1-2-title">TEST TITLE</h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="section" id="section2">
+            <div class="container">
+                <h1>work + education</h1>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="container">
+                <h1>contact</h1>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="src/fullpage.js"></script>
+    <script type="text/javascript" src="src/index.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            menu: '.nav',
+            anchors: ['bio', 'projects', 'history', 'contact'],
+            sectionsColor: ['#000000', '#000000', '#000000', '#FAF2F8'],
+            autoScrolling: false,
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+        });
+    </script>
 
 </body>
-
 </html>
+
+<!-- 
+    <div class="code2-1-image"></div>
+    <div class="container-code2-1-information">
+        <h2 class="code2-1-title">TEST TITLE</h2>
+    </div>
+
+    <div class="code2-2-image"></div>
+    <div class="container-code2-2-information">
+        <h2 class="code2-2-title">TEST TITLE</h2>
+    </div>
+-->
