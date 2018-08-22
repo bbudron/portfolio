@@ -9,7 +9,8 @@ h1 {
 	font-size: 34px;
     margin:0;
     padding:0;
-    color: white;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 h2 {
@@ -17,7 +18,8 @@ h2 {
 	font-size: 20px;
     margin:0;
     padding:0;
-    color: white;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -27,8 +29,9 @@ p {
     margin:0;
     padding:0;
 	color: white;
-	text-align: justify;
+	font-family: 'Raleway', sans-serif;
 }
+
 @media only screen and (max-width: 650px) {
 	h1 {
 		font-size: 30px;
@@ -68,6 +71,7 @@ p {
 	border-radius: 3px;
 	background: #a5a8d2;
 }
+
 
 .nav-item {
 	text-decoration:none;
@@ -167,14 +171,12 @@ p {
 }
 
 #name {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	margin-bottom: 3px;
 	margin: 0 118px 3px auto;
 }
 
 #occupation {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	color: #a5a8d2;
 	margin: 0 185px 3px auto;
@@ -183,10 +185,10 @@ p {
 .aboutme {
 	margin: 20px auto;
 	padding: 15px 30px 15px 40px;
-	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	line-height: 27px;
 	text-indent: 20px;
+	text-align: justify;
 }
 
 @media only screen and (max-width: 900px) {
@@ -251,9 +253,11 @@ p {
 
 
 .code-title {
-	margin: 40px 0 0 40px;
+	margin: 40px auto 0;
+	text-align: right;
 	text-decoration: underline;
 	text-decoration-color: #77b4fd;
+	letter-spacing: 3px;
 }
 
 /* code1 */
@@ -269,70 +273,126 @@ p {
 .container-code1-1 {
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: center;
+	justify-content: flex-start;
 	height: 175px;
 	width: 100%;
-	background-color: rgb(60, 60, 60);
-	margin: 70px auto 0;
+	background-color: #0b0b33;
+	margin: 80px auto 0;
 }
 
 .container-code1-2 {
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: center;
+	justify-content: flex-end;
 	height: 175px;
 	width: 100%;
-	background-color: rgb(45, 45, 45);
-	margin: 100px auto auto;
+	background-color: #0b0b33;
+	margin: 120px auto auto;
 }
 
 .code1-1-image {
-	background: #FFF;
-	width: 275px;
+	background-image: url("./img/gameguide.jpg");
+	border-radius: 3px;
+	background-size: 275px 245px;
+	min-width: 275px;
 	height: 245px;
-	margin: -35px 0 0 20px;
-	order: 2;
+	margin: -35px 0 0 190px;
+	order: 1;
 }
 
 .code1-2-image {
-	background: #FFF;
-	width: 275px;
+	background-image: url("./img/kirklandjaxon.jpg");
+	border-radius: 3px;
+	background-size: 275px 245px;
+	min-width: 275px;
 	height: 245px;
 	float: left;
-	margin: -35px 20px 0 0;
-	order: 1;
+	margin: -35px 190px 0 0;
+	order: 2;
 }
 
 .container-code1-1-information {
-	background: rgba(128, 128, 128, 0.75);
-	width: 45%;
+	width: 525px;
 	height: 110%;
-	margin: -25px 0 0 0;
-	padding: 15px;
-	order: 1;
-}
-
-.container-code1-2-information {
-	background: rgba(128, 128, 128, 0.75);
-	width: 45%;
-	height: 110%;
-	margin: -25px 0 0 0;
+	margin: -35px 0 0 10px;
 	padding: 15px;
 	order: 2;
 }
 
+.container-code1-2-information {
+	width: 525px;
+	height: 110%;
+	margin: -35px 10px 0 0;
+	padding: 15px;
+	order: 1;
+}
+
 .code1-1-title { 
-	margin-top: -8px;
+	margin: -13px 0 15px;
 	text-align: left;
+	font-size: 26px;
 }
 
 
 .code1-2-title { 
-	margin-top: -8px;
+	margin: -13px 0 15px;
 	text-align: right;
+	font-size: 26px;
+}
+
+.code-description {
+	line-height: 28px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.code-description2 {
+	line-height: 28px;
+	font-weight: 400;
+	text-align: right;
+	font-size: 16px;
+}
+.code-description:before {
+	content: " ";
+	margin-right: 8px;
+}
+.code-description2:before {
+	content: " ";
+	margin-right: 8px;
 }
 
 
+@media only screen and (max-width: 1300px) {
+
+	.code1-1-image {
+		margin: -35px 0 0 100px;
+	}
+
+	.code1-2-image {
+		margin: -35px 100px 0 0;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.code1-1-image {
+		margin: -35px 0 0 45px;
+	}
+
+	.code1-2-image {
+		margin: -35px 45px 0 0;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.container-code1-1-information {
+		max-width: 325px;
+	}
+
+	.container-code1-2-information {
+		max-width: 325px;
+	}
+}
 
 @media only screen and (max-width: 600px) {
 	.code-title {
@@ -344,6 +404,7 @@ p {
 		justify-content: center;
 		align-content: center;
 		width: 100%;
+		margin-top: 75px;
 	}
 	
 	.container-code1-2 {
@@ -355,49 +416,40 @@ p {
 
 
 	.code1-1-image {
-		background: #FFF;
-		width: 275px;
-		height: 245px;
-		margin: -35px auto 0;
-		order: 1;
+		display: none;
 	}
 	
 	.code1-2-image {
-		background: #FFF;
-		width: 275px;
-		height: 245px;
-		float: left;
-		margin: -35px auto 0;
-		order: 1;
+		display: none;
 	}
 	
 	.container-code1-1-information {
 		background: rgba(128, 128, 128, 0.75);
-		width: 80%;
+		width: 85%;
 		height: 110%;
-		margin: 10px auto -25px;
+		margin: -45px auto -25px;
 		padding: 15px;
 		order: 2;
 	}
 	
 	.container-code1-2-information {
 		background: rgba(128, 128, 128, 0.75);
-		width: 80%;
+		width: 85%;
 		height: 110%;
-		margin: 10px auto -25px;
+		margin: -45px auto -25px;
 		padding: 15px;
 		order: 2;
 	}
 	
 	.code1-1-title { 
 		margin-top: -8px;
-		text-align: left;
+		text-align: center;
 	}
 	
 	
 	.code1-2-title { 
 		margin-top: -8px;
-		text-align: right;
+		text-align: center;
 	}
 	
 }
@@ -417,7 +469,7 @@ p {
 	display: block;
 	height: 175px;
 	width: 100%;
-	background-color: rgb(60, 60, 60);
+	background-color: #0b0b33;
 	margin: 70px auto 0;
 }
 
@@ -425,7 +477,7 @@ p {
 	display: block;
 	height: 175px;
 	width: 100%;
-	background-color: rgb(45, 45, 45);
+	background-color: #0b0b33;
 	margin: 100px auto auto;
 }
 
