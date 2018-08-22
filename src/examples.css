@@ -411,6 +411,7 @@ p {
 		flex-flow: column nowrap;
 		justify-content: center;
 		align-content: center;
+		margin-top: 100px;
 		width: 100%;
 	}
 
@@ -427,7 +428,7 @@ p {
 		background: rgba(128, 128, 128, 0.75);
 		width: 85%;
 		height: 110%;
-		margin: -45px auto -25px;
+		margin: -50px auto -25px;
 		padding: 15px;
 		order: 2;
 	}
@@ -436,7 +437,7 @@ p {
 		background: rgba(128, 128, 128, 0.75);
 		width: 85%;
 		height: 110%;
-		margin: -45px auto -25px;
+		margin: -50px auto -25px;
 		padding: 15px;
 		order: 2;
 	}
