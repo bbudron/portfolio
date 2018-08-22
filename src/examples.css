@@ -224,6 +224,7 @@ p {
 		min-width: 100%;
 		height: 300px;
 		display: block;
+		margin: 30px 0 0;
 	}
 
 
@@ -232,18 +233,18 @@ p {
 	}
 	
 	#name {
-		margin: 10px auto 0;	
+		margin: 15px auto 0;	
 
 	}
 	
 	#occupation {
-		margin: 10px auto 0;	
+		margin: 6px auto 0;	
 	}
 
 
 	.aboutme {
 		padding: 0 25px;
-		margin: 30px auto 0;
+		margin: 15px auto 0;
 		line-height: 22px;
 	}
 }
