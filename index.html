@@ -1,174 +1,161 @@
 <!DOCTYPE html>
-<html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Brandon B. Portfolio</title>
     <meta name="author" content="Brandon Budron" />
     <meta name="description" content="Brandon budron portfolio" />
-    <meta name="viewport" content="height=device-height, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="src/fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="src/examples.css" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
 
-    <div id="nav">
-        <div class="nav-btn" data-menuanchor="me" class="active"><a class="nav-item" href="#me">ME <i class="fa fa-address-card" aria-hidden="true"></i></a></div>
-        <div class="nav-btn" data-menuanchor="code"><a class="nav-item" href="#code">CODE <i class="fa fa-code" aria-hidden="true"></i></a></div>
-        <div class="nav-btn" data-menuanchor="resume"><a class="nav-item" href="#resume">RESUME <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></div>
-        <div class="nav-btn" data-menuanchor="contact"><a class="nav-item" href="#contact">CONTACT <i class="fa fa-envelope" aria-hidden="true"></i></a></div>
-    </div>
+<ul id="nav">
+	<li class="nav-btn" data-menuanchor="me"><a class="nav-item" href="#me">ME <i class="fa fa-address-card" aria-hidden="true"></i></a></li>
+	<li class="nav-btn" data-menuanchor="code"><a class="nav-item" href="#code">CODE <i class="fa fa-code" aria-hidden="true"></i></a></li>
+	<li class="nav-btn" data-menuanchor="resume"><a class="nav-item" href="#resume">RESUME <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
+	<li class="nav-btn" data-menuanchor="contact" ><a class="nav-item" href="#contact">CONTACT <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+</ul>
 
-    </div>
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="container-me">
+			<div class="container-left">
+				<div class="profilepic"></div>
+				<h1 id="name">Brandon Budron</h1>
+				<h2 id="occupation">web developer</h2>
+			</div>
+			<div class="container-right">
+				<p class="aboutme">
+					I am a full-stack web developer attending the University of Central Florida as a computer science major. Primarily, I build JavaScript based web applications with willingness to learn new tools, frameworks, and languages to increase or improve efficiency. When I am not coding, I like to read about technology and design or do outdoors activity to enjoy the weathee.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="container-code">
+			<h1 class="code-title">Projects</h1>
+			<div id="trigger"></div>
+
+				<div class="container-code1">
+				<div class="container-code1-1">
+					<div class="code1-1-image"></div>
+					<div class="container-code1-1-information">
+						<h2 class="code1-1-title">Game Guide</h2>
+						<p class="code-description">Quickly search for video game information using Game Guide</p>
+						<p class="code-description">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
+						<p class="code-description">https://infinite-savannah-63326.herokuapp.com/</p>
+					</div>
+				</div>
+				<div class="container-code1-2">
+					<div class="container-code1-2-information">
+						<h2 class="code1-2-title">Trivial Trivia</h2>
+						<p class="code-description2">Answer some trivial trivia questions</p>
+						<p class="code-description2">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
+						<p class="code-description2">https://infinite-savannah-63326.herokuapp.com/</p>
+					</div>
+					<div class="code1-2-image"></div>
+				</div>
+			</div>
+			<div class="container-code2">
+				<div class="container-code2-1"></div>
+				<div class="container-code2-2"></div>
+
+				<div class="columns-code2">
+					<div class="column-code2">
+						<div class="code2-1image"></div>
+						<div class="container-code2-information">
+							<h2 class="code2-title">Personal Planner</h2>
+							<p class="code-description">Quickly search for video game information using Game Guide</p>
+							<p class="code-description">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
+							<p class="code-description">https://infinite-savannah-63326.herokuapp.com/</p>
+						</div>
+					</div>
+					<div class="column-code2">
+						<div class="code2-2image"></div>
+						<div class="container-code2-information">
+							<h2 class="code2-title">TO-DO</h2>
+							<p class="code-description">Quickly search for video game information using Game Guide</p>
+							<p class="code-description">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
+							<p class="code-description">https://infinite-savannah-63326.herokuapp.com/</p>
+						</div>
+					</div>
+					<div class="column-code2">
+						<div class="code2-3image"></div>
+						<div class="container-code2-information">
+							<h2 class="code2-title">Science Scraper</h2>
+							<p class="code-description">Quickly search for video game information using Game Guide</p>
+							<p class="code-description">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
+							<p class="code-description">https://infinite-savannah-63326.herokuapp.com/</p>    
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="container-resume">
+			<h1 class="resume-title">Resume</h1>
+			<div class="container-resume-education">
+				<h3 class="resume-subtitle">Education</h3>
+				<div class="education-details">
+					Associates Degree in General Studies, Valencia College  (2017)
+					President's List - Earned at least a 3.75 GPA in all coursework.
+					<br />
+					FullStack Coding Bootcamp Certificate, University of Central Florida  (2018)
+					Fast-paced and immersive curriculum covering the MERN stack.
+					<br />
+					Bachelors Degree in Computer Science, University of Central Florida  (2020)
+				</div>
+			</div>
+			<div class="container-resume-work">
+				<h3 class="resume-subtitle">Work</h3>
+				<div class="work-details">
+					Assistant Manager at AAA Int’l Shipping   (April 2013 - October 2016)
+					Led graphic design; created newsletters, infographics, and advertisements.
+					Developed website mock-ups to ensure quality control before development phase.
+					<br />
+					Admissions Support at Remington College  (December 2016 - July 2017)
+					Ranked top admissions representative in a department of 35 representatives.
+					Exceeded goal conversions at above 325% for the March start analysis.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="container-contact">
+			<h1 class="contact-title">Contact</h1>
+			<div class="container-contact-information">
+				<div class="contact-links">github linkedin email</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
-    <div id="fullpage">
+<input type="hidden" id="_4" value="3" />
 
-        <div class="section" id="section0">
-            <div class="container-me">
-                <div class="container-left">
-                    <div class="profilepic"></div>
-                    <h1 id="name">Brandon Budron</h1>
-                    <h2 id="occupation">web developer</h2>
-                </div>
-                <div class="container-right">
-                    <p class="aboutme">
-                        I am a full-stack web developer attending the University of Central Florida as a computer science major. Primarily, I build JavaScript based web applications with willingness to learn new tools, frameworks, and languages to increase or improve efficiency. When I am not coding, I like to read about technology and design or do outdoors activity to enjoy the weathee.
-                    </p>
-                </div>
-            </div>
-        </div>
+<script type="text/javascript" src="./assets/js/scrolloverflow.js"></script>
+<script type="text/javascript" src="./assets/js/fullpage.extensions.min.js"></script>
 
-        <div class="section" id="section1">
-            <div class="container-code">
-                <h1 class="code-title">Projects</h1>
-                <div id="trigger"></div>
-
-                <div class="slide" id="slide1">
-                    <div class="container-code1">
-                    <div class="container-code1-1">
-                        <div class="code1-1-image"></div>
-                        <div class="container-code1-1-information">
-                            <h2 class="code1-1-title">Game Guide</h2>
-                            <p class="code-description">Quickly search for video game information using Game Guide</p>
-                            <p class="code-description">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
-                            <p class="code-description">https://infinite-savannah-63326.herokuapp.com/</p>
-                        </div>
-                    </div>
-                    <div class="container-code1-2">
-                        <div class="container-code1-2-information">
-                            <h2 class="code1-2-title">Trivial Trivia</h2>
-                            <p class="code-description2">Answer some trivial trivia questions</p>
-                            <p class="code-description2">React, Node.js, Express, IGDB and IGN API's for video game data.</p>
-                            <p class="code-description2">https://infinite-savannah-63326.herokuapp.com/</p>
-                        </div>
-                        <div class="code1-2-image"></div>
-                    </div>
-                </div>
-                </div>
-
-                <div class="slide" id="slide2">
-                    <div class="container-code2">
-                        <div class="container-code2-1"></div>
-                        <div class="container-code2-2"></div>
-
-                        <div class="columns-code2">
-                            <div class="column-code2">
-                                <div class="code2-image"></div>
-                                <div class="container-code2-information">
-                                    <h2 class="code2-title">Personal Planner</h2>
-                                    <p>have clean and commented code</p>
-                                    <p>have clean and commented code</p>
-                                </div>
-                            </div>
-                            <div class="column-code2">
-                                <div class="code2-image"></div>
-                                <div class="container-code2-information">
-                                    <h2 class="code2-title">TO-DO</h2>
-                                    <p>have clean and commented code</p>
-                                    <p>have clean and commented code</p>
-                                </div>
-                            </div>
-                            <div class="column-code2">
-                                <div class="code2-image"></div>
-                                <div class="container-code2-information">
-                                    <h2 class="code2-title">Science Scraper</h2>
-                                    <p>have clean and commented code</p>
-                                    <p>have clean and commented code</p>     
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-
-        <div class="section" id="section2">
-            <div class="container-resume">
-                <h1 class="resume-title">Resume</h1>
-                <div class="container-resume-education">
-                    <h3 class="resume-subtitle">Education</h3>
-                    <div class="education-details">
-                        Associates Degree in General Studies, Valencia College  (2017)
-                        President's List - Earned at least a 3.75 GPA in all coursework.
-                        <br />
-                        FullStack Coding Bootcamp Certificate, University of Central Florida  (2018)
-                        Fast-paced and immersive curriculum covering the MERN stack.
-                        <br />
-                        Bachelors Degree in Computer Science, University of Central Florida  (2020)
-                    </div>
-                </div>
-                <div class="container-resume-work">
-                    <h3 class="resume-subtitle">Work</h3>
-                    <div class="work-details">
-                        Assistant Manager at AAA Int’l Shipping   (April 2013 - October 2016)
-                        Led graphic design; created newsletters, infographics, and advertisements.
-                        Developed website mock-ups to ensure quality control before development phase.
-                        <br />
-                        Admissions Support at Remington College  (December 2016 - July 2017)
-                        Ranked top admissions representative in a department of 35 representatives.
-                        Exceeded goal conversions at above 325% for the March start analysis.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section" id="section3">
-            <div class="container-contact">
-                <h1 class="contact-title">Contact</h1>
-                <div class="container-contact-information">
-                    <div class="contact-links">github linkedin email</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="src/fullpage.js"></script>
-    <script type="text/javascript" src="src/index.js"></script>
-
-    <script type="text/javascript">
-        var myFullpage = new fullpage('#fullpage', {
-            menu: '#nav',
-            anchors: ['me', 'code', 'resume', 'contact'],
-            sectionsColor: ['#0b0b33', '#000000', '#000000', '#000000'],
-            autoScrolling: false,
-            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-        });
-    </script>
+<script type="text/javascript">
+	new fullpage('#fullpage', {
+		licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+		anchors: ['me', 'code', 'resume', 'contact'],
+		sectionsColor: ['#0b0b33', '#000000', '#000000', '#000000'],
+		menu: '#nav',
+		slidesNavigation: true,
+		scrollOverflow: true
+	});
+</script>
 
 </body>
 </html>
-
-<!-- 
-    <div class="code2-1-image"></div>
-    <div class="container-code2-1-information">
-        <h2 class="code2-1-title">TEST TITLE</h2>
-    </div>
-
-    <div class="code2-2-image"></div>
-    <div class="container-code2-2-information">
-        <h2 class="code2-2-title">TEST TITLE</h2>
-    </div>
+<!--
+		scrollOverflowReset: true,
+		scrollOverflowResetKey: 'YWx2YXJvdHJpZ28uY29tXzlRaGMyTnliMnhzVDNabGNtWnNiM2RTWlhObGRBPT14Ykk='
 -->
