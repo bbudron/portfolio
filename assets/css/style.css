@@ -124,8 +124,6 @@ p {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 .container-right {
@@ -138,27 +136,35 @@ p {
 	justify-content: center;
 }
 
+.container-profile {
+	width: 350px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto 20px auto auto;
+	padding:  5px;
+}
+
 .profilepic {
 	height: 200px;
 	width: 200px;
 	background-image: url("../img/profilepic.svg");
 	background-size: 200px 200px;
 	background-color: #76b3fc;
-	margin: 10px 150px 25px auto;
 	border-radius: 3px;
-
 }
 
 #name {
 	font-weight: 700;
 	margin-bottom: 3px;
-	margin: 0 118px 3px auto;
+	margin-top: 15px;
 }
 
 #occupation {
 	font-weight: 400;
 	color: #a5a8d2;
-	margin: 0 185px 3px auto;
 }
 
 .aboutme {
@@ -173,7 +179,7 @@ p {
 .contact-links {
 	display: flex;
 	flex-flow: row nowrap;
-	margin: 0 105px 3px auto;
+	margin: 20px auto;
 	justify-content: center;
 }
 
@@ -182,37 +188,12 @@ p {
 	color: white;
 }
 
-@media only screen and (max-width: 900px) {
-	.profilepic {
-		margin: 10px auto;	
-	}
-	
-	#name {
-		margin: 10px auto;	
-
-	}
-	
-	#occupation {
-		margin: 10px auto;	
-	}
-
-	.aboutme {
-		padding: 15px auto;
-		margin: 0 auto;
-	}
-
-	.contact-links {
-		margin: 10px auto;	
-	}
-}
 
 @media only screen and (max-width: 650px) {
     .container-left {
 		min-width: 100%;
-		height: 35%;
-		margin-top: 10%;
-		display: block;
-		text-align: center;
+		height: 50%;
+		margin-top: 15px;
 	}
 	
 	.container-right {
@@ -220,18 +201,12 @@ p {
 		height: auto;
 		display: block;
 		margin: -20px 0 0;
+		justify-content: flex-start;
+		height: 50%;
 	}
 
-	.profilepic {
-		margin: 0px auto 10px;	
-	}
-	
-	#name {
-		margin: 15px auto 0;	
-	}
-	
-	#occupation {
-		margin: 6px auto 0;	
+	.container-profile {
+		margin: auto;
 	}
 
 	.aboutme {
