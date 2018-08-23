@@ -17,7 +17,6 @@
 	<li class="nav-btn" data-menuanchor="me"><a class="nav-item" href="#me">ME <i class="fa fa-address-card" aria-hidden="true"></i></a></li>
 	<li class="nav-btn" data-menuanchor="code"><a class="nav-item" href="#code">CODE <i class="fa fa-code" aria-hidden="true"></i></a></li>
 	<li class="nav-btn" data-menuanchor="resume"><a class="nav-item" href="#resume">RESUME <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
-	<li class="nav-btn" data-menuanchor="contact" ><a class="nav-item" href="#contact">CONTACT <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 </ul>
 
 <div id="fullpage">
@@ -27,6 +26,12 @@
 				<div class="profilepic"></div>
 				<h1 id="name">Brandon Budron</h1>
 				<h2 id="occupation">web developer</h2>
+				<div class="contact-links">
+						<i class="fab fa-github icon fa-2x contact-link"></i>
+						<i class="fab fa-linkedin icon fa-2x contact-link"></i>
+						<i class="fas fa-envelope-square icon fa-2x contact-link"></i>
+				</div>
+				
 			</div>
 			<div class="container-right">
 				<p class="aboutme">
@@ -37,8 +42,6 @@
 	<div class="section" id="section1">
 		<div class="container-code">
 			<h1 class="code-title">Projects</h1>
-			<div id="trigger"></div>
-
 				<div class="container-code1">
 				<div class="container-code1-1">
 					<div class="code1-1-image"></div>
@@ -60,8 +63,6 @@
 				</div>
 			</div>
 			<div class="container-code2">
-				<div class="container-code2-1"></div>
-				<div class="container-code2-2"></div>
 
 				<div class="columns-code2">
 					<div class="column-code2">
@@ -125,15 +126,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="section" id="section3">
-		<div class="container-contact">
-			<h1 class="contact-title">Contact</h1>
-			<div class="container-contact-information">
-				<div class="contact-links">github linkedin email</div>
-			</div>
-		</div>
-	</div>
 </div>
+<script type="text/javascript" src="./assets/js/bounce.js"></script>
 
 <script type="text/javascript" src="./assets/js/scrolloverflow.js"></script>
 <script type="text/javascript" src="./assets/js/fullpage.extensions.min.js"></script>
@@ -141,8 +135,8 @@
 <script type="text/javascript">
 	new fullpage('#fullpage', {
 		licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-		anchors: ['me', 'code', 'resume', 'contact'],
-		sectionsColor: ['#0b0b33', '#000000', '#000000', '#000000'],
+		anchors: ['me', 'code', 'resume'],
+		sectionsColor: ['#0b0b33', '#000000', '#000000'],
 		menu: '#nav',
 		slidesNavigation: true,
 		scrollOverflow: true
