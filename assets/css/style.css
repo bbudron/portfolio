@@ -86,24 +86,29 @@ body{
 	margin: 0px auto 35px;
 }
 
-@media only screen and (max-width: 650px) {
-	#nav {
-		margin: 0px auto 7px;
-	}
-}
-
 .nav-btn {
 	display:inline-block;
-	margin: 10px; 
+	margin: 0 20px; 
 	color: #000;
 	border-radius: 3px;
 	background: #a5a8d2;
 }
 
+@media only screen and (max-width: 650px) {
+	#nav {
+		justify-content: space-around;
+		margin: 0px auto 7px;
+	}
+
+	.nav-btn {
+		margin: 9px; 
+	}
+}
+
 .nav-item {
 	text-decoration:none;
 	color: #000;
-	padding: 5px 10px;
+	padding: 6px 10px;
 	display:block;
 	font-size: 11px;
 	font-weight: bold;
@@ -119,6 +124,10 @@ body{
 
 .nav-btn.active {
 	background: #77b4fd;
+}
+
+.nav-icon{
+	margin-left: 3px;
 }
 
 /*  3 - me  */
@@ -354,6 +363,26 @@ body{
 	margin-right: 8px;
 }
 
+.link1  {
+	font-weight: 500;
+	margin-right: 15px;
+	margin-top: 20px;
+	color: #77b3fde0;
+}
+
+.link1:hover {
+	color: #77b4fd;
+}
+
+.link2 {
+	font-weight: 500;
+	margin-left: 15px;
+	color: #a5a8d2e0;
+}
+
+.link2:hover {
+	color: #a5a8d2;
+}
 
 @media only screen and (max-width: 1300px) {
 	.code1-1-image {
@@ -376,6 +405,7 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
+	
 	.code1-1-image {
 		background-size: 220px 196px;
 		width: 220px;
@@ -421,12 +451,20 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+	.container-code1 {
+		margin-bottom: 50px;
+	}
 	.container-code1-1 {
 		flex-flow: column nowrap;
 		justify-content: flex-start;
 		align-content: flex-start;
 		margin-top: 30px;
 		height: auto;
+		background: #0b0b33;
+		padding-top: 25px;
+		padding-bottom: 10px;
+		border-radius: 7px;
+		width: 320px;
 	}
 	
 	.container-code1-2 {
@@ -435,6 +473,11 @@ body{
 		align-content: flex-start;
 		margin-top: 30px;
 		height: auto;
+		background: #0b0b33;
+		padding-top: 25px;
+		padding-bottom: 10px;
+		border-radius: 7px;
+		width: 320px;
 	}
 
 	.code1-1-image {
@@ -449,25 +492,27 @@ body{
 	.container-code1-1-information {
 		width: 100%;
 		margin: 0px auto;
-		padding: 10px;
+		padding: 5px;
 		order: 2;
 	}
 	
 	.container-code1-2-information {
 		width: 100%;
 		margin: 0px auto;
-		padding: 10px;
+		padding: 5px;
 		order: 2;
 	}
 	
 	.code1-1-title { 
-		margin: 2px 0 3px;
+		margin: 4px 0 3px;
+		padding-top: 3px;
 		text-align: center;
 		font-size: 22px;
 	}
 	
 	.code1-2-title { 
-		margin: 2px 0 3px;
+		margin: 4px 0 3px;
+		padding-top: 3px;
 		text-align: center;
 		font-size: 22px;
 	}
