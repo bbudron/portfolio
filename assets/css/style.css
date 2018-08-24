@@ -206,7 +206,7 @@ p {
 	.container-right {
 		min-width: 100%;
 		vertical-align: middle;
-		margin: -30px 0 0;
+		margin: 0px 0 0;
 		justify-content: flex-start;
 		height: 40%;
 	}
@@ -222,7 +222,7 @@ p {
 	}
 
 	.contact-links {
-		margin: 15px auto;
+		margin: 10px auto;
 	}
 }
 
