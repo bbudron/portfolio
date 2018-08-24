@@ -80,7 +80,7 @@ p {
 
 @media only screen and (max-width: 650px) {
 	#nav {
-		margin: 0px auto 10px;
+		margin: 0px auto 7px;
 	}
 }
 
@@ -199,8 +199,8 @@ p {
     .container-left {
 		display: block;
 		min-width: 100%;
-		height: auto;
-		margin-top: 15px;
+		height: 48%;
+		margin-top: 10px;
 	}
 	
 	.container-right {
@@ -218,9 +218,11 @@ p {
 
 	.aboutme {
 		padding: 0 25px;
-		margin: 15px auto 0;
+		margin: 10px auto 0;
 		line-height: 22px;
 	}
+
+
 }
 
 /*  4 - code    */
