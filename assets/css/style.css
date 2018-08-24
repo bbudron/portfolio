@@ -154,8 +154,8 @@ p {
 }
 
 .profilepic {
-	height: 200px;
-	width: 200px;
+	min-height: 200px;
+	min-width: 200px;
 	background-image: url("../img/profilepic.svg");
 	background-size: 200px 200px;
 	background-color: #76b3fc;
