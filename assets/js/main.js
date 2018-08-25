@@ -9,7 +9,7 @@ window.onload = function() {
         depth: .5,
         maxSpeed: 0.11,
         wheelZoom: false,
-        shuffleTags: true,
+        shuffleTags: false,
         shadow: "transparent",
         scrollPause: 10,
         outlineThickness: 0,

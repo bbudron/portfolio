@@ -291,6 +291,10 @@ body{
 	margin: 120px auto 20px;
 }
 
+#container-code1-2-last {
+	margin-bottom: 120px;
+}
+
 .code1-1-image {
 	background-image: url("../img/gameguide.jpg");
 	border-radius: 3px;
@@ -475,6 +479,11 @@ body{
 		width: 320px;
 	}
 
+	#container-code1-2-last {
+		margin-bottom: 35px;
+	}
+	
+
 	.code1-1-image {
 		margin: 0 auto;
 	}
@@ -540,35 +549,65 @@ body{
 	letter-spacing: 2px;
 }
 
-.container-resume-education {
-	width: 70%;
+.container-inner-resume {
+	width: 600px;
 	height: auto;
 	margin: 10px auto;
-}
-
-.container-resume-work {
-	width: 70%;
-	height: auto;
-	margin: 10px auto;
+	text-align: center;
 }
 
 .resume-subtitle {
 	color: white;
-	margin: 40px 0 0 40px;
-	font-size: 28px;
+	margin: 20px 0 0 40px;
+	font-size: 24px;
+	font-family: 'Raleway';
+	text-align: left;
 }
 
 .education-details {
 	color: white;
-	margin: 40px 0 0 40px;
+	margin: 20px 0 0 40px;
 	font-size: 18px;
 }
 
 .work-details {
 	color: white;
-	margin: 40px 0 0 40px;
+	margin: 20px 0 0 40px;
 	font-size: 18px;
 }
+
+.education-work-list {
+	list-style-type: none;
+}
+
+.education-title {
+	line-height: 25px;
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Raleway';
+	margin: 20px 0 5px;
+}
+
+.education-subtitle {
+	line-height: 20px;
+	font-size: 14px;
+	font-family: 'Raleway';
+	text-align: left;
+	margin-bottom: 3px;
+	color: #77b4fdc9;
+	-webkit-transition: color .75s; /* Safari */
+    transition: color .75s;
+}
+
+.education-subtitle::before {
+	content: " ";
+	margin-left: 15px;
+}
+
+.education-subtitle:hover {
+	color: #77b4fd;
+}
+
 @media only screen and (max-width: 800px) {
 	.resume-subtitle {
 		margin: 0px 0 0 20px;
@@ -586,15 +625,19 @@ body{
 		font-size: 18px;
 		margin: 40px 0 0 40px;
 	}
+
+	.education-title {
+		font-size: 14px;
+	}
+
+	.education-subtitle {
+		font-size: 12px;
+	}
 }
 
 
 @media only screen and (max-width: 600px) {
-	.container-resume-education {
-		width: 90%;
-	}
-
-	.container-resume-work {
+	.container-inner-resume {
 		width: 90%;
 	}
 
@@ -604,19 +647,24 @@ body{
 
 	.resume-subtitle {
 		color: white;
-		margin: 0px 0 0 15px;
+		margin: 0px auto;
 		font-size: 24px;
+	}
+
+	.container-inner-resume {
+		width: 90%;
+		margin: 10px 20px 10px 10px;
 	}
 
 	.education-details {
 		color: white;
-		margin: 15px 0 0 15px;
+		margin: 0px auto;
 		font-size: 15px;
 	}
 
 	.work-details {
 		color: white;
-		margin: 15px 0 0 15px;
+		margin: 0px auto;
 		font-size: 15px;
 	}
 
@@ -627,7 +675,7 @@ body{
 }
 
 #myCanvasContainer {
-	margin: 0 auto 60px;
+	margin: 0 auto 75px;
 }
 
 #tags > ul > li > a {
