@@ -354,14 +354,6 @@ body{
 	text-align: right;
 	font-size: 16px;
 }
-.code-description:before {
-	content: " ";
-	margin-right: 8px;
-}
-.code-description2:before {
-	content: " ";
-	margin-right: 8px;
-}
 
 .link1  {
 	font-weight: 500;
@@ -569,13 +561,13 @@ body{
 .education-details {
 	color: white;
 	margin: 40px 0 0 40px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .work-details {
 	color: white;
 	margin: 40px 0 0 40px;
-	font-size: 20px;
+	font-size: 18px;
 }
 @media only screen and (max-width: 800px) {
 	.resume-subtitle {
@@ -627,5 +619,17 @@ body{
 		margin: 15px 0 0 15px;
 		font-size: 15px;
 	}
+
+	#myCanvasContainer {
+		margin: 0 40px 60px 0;
+	}
+	
 }
 
+#myCanvasContainer {
+	margin: 0 auto 60px;
+}
+
+#tags > ul > li > a {
+	font-family: 'Catamaran';
+}
