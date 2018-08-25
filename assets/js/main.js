@@ -1,7 +1,6 @@
-
 window.onload = function() {
     try {
-    TagCanvas.Start('myCanvas','tags',{
+    TagCanvas.Start('skills','tags',{
         activeCursor: "default",
         textColour: null,
         outlineColour: 'none',
@@ -22,6 +21,10 @@ window.onload = function() {
         });
     } catch(e) {
         // something went wrong, hide the canvas container
-        document.getElementById('myCanvasContainer').style.display = 'none';
+        document.getElementById('skills-container').style.display = 'none';
     }
 };
+
+document.getElementById("pdf").addEventListener("click", function(){
+    window.open('assets/img/resume.pdf', '_blank');
+});

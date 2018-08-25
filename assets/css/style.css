@@ -91,7 +91,9 @@ body{
 	margin: 0 20px; 
 	color: #000;
 	border-radius: 3px;
-	background: #a5a8d2;
+	background: #a5a8d2c9;
+	-webkit-transition: background-color .6s; /* Safari */
+    transition: background-color .6s;
 }
 
 @media only screen and (max-width: 650px) {
@@ -115,11 +117,11 @@ body{
 }
 
 .nav-btn:hover {
-	background: #a5a8d2c9;
+	background: #a5a8d2;
 }
 
 .nav-btn.active:hover {
-	background: #77b3fdc9;
+	background: #77b4fd;
 }
 
 .nav-btn.active {
@@ -211,6 +213,12 @@ body{
 .contact-link {
 	margin: 0 30px;
 	color: white;
+	-webkit-transition: color .6s; /* Safari */
+    transition: color .6s;
+}
+
+.contact-link:hover {
+	color: #77b4fd;
 }
 
 
@@ -543,10 +551,54 @@ body{
 	height: 100%;
 }
 
-.resume-title {
-	margin: 60px auto 0px;
+
+
+.resume-title-container-25-2 {
+	color: black;
+	width: auto;
 	text-align: right;
+	font-size: 12px;
+	font-family: Helvetica;
+	font-weight: bold;
+	background-color: #77b3fdc9;
+	padding: 5px 10px;
+	border-radius: 3px;
+	-webkit-transition: background-color .6s; /* Safari */
+    transition: background-color .6s;
+}
+
+.resume-title-container-25-2:hover {
+	background-color: #77b3fd;
+
+}
+
+.resume-title {
+	color: white;
+	font-size: 30px;
+	font-family: 'Raleway';
+	font-weight: bold;
+	margin: 60px auto 0;
 	letter-spacing: 2px;
+}
+
+#pdf {
+	color: #a5a8d2c9;
+	font-size: 15px;
+	font-family: 'Raleway';
+	font-weight: 500;
+	margin: 16px auto -15px;
+	padding: 5px 16px;
+	border: 1px solid transparent;
+	-webkit-transition: color .6s, border .6s, border-radius .6s; /* Safari */
+	transition: color .6s, border .6s, border-radius .6s;
+	border-radius: 3px;
+}
+
+#pdf:hover {
+	color: #a5a8d2;
+	cursor: pointer;
+	border: 1px solid #a5a8d2;
+	border-radius: 15px;
 }
 
 .container-inner-resume {
@@ -595,8 +647,8 @@ body{
 	text-align: left;
 	margin-bottom: 3px;
 	color: #77b4fdc9;
-	-webkit-transition: color .75s; /* Safari */
-    transition: color .75s;
+	-webkit-transition: color .6s; /* Safari */
+    transition: color .6s;
 }
 
 .education-subtitle::before {
@@ -609,21 +661,25 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
+
+	.resume-title-container {
+		width: 80%;
+	}
+
 	.resume-subtitle {
-		margin: 0px 0 0 20px;
 		font-size: 24px;
 	}
 
 	.education-details {
 		color: white;
 		font-size: 18px;
-		margin: 40px 0 0 40px;
+		margin: 20px 0 0 40px;
 	}
 
 	.work-details {
 		color: white;
 		font-size: 18px;
-		margin: 40px 0 0 40px;
+		margin: 20px 0 0 40px;
 	}
 
 	.education-title {
@@ -637,6 +693,7 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+
 	.container-inner-resume {
 		width: 90%;
 	}
@@ -647,13 +704,13 @@ body{
 
 	.resume-subtitle {
 		color: white;
-		margin: 0px auto;
+		margin: 10px auto;
 		font-size: 24px;
 	}
 
 	.container-inner-resume {
 		width: 90%;
-		margin: 10px 20px 10px 10px;
+		margin: 10px 10px 10px 10px;
 	}
 
 	.education-details {
@@ -668,16 +725,17 @@ body{
 		font-size: 15px;
 	}
 
-	#myCanvasContainer {
+	#skills-container {
 		margin: 0 40px 60px 0;
 	}
 	
 }
 
-#myCanvasContainer {
+#skills-container {
 	margin: 0 auto 75px;
 }
 
 #tags > ul > li > a {
 	font-family: 'Catamaran';
 }
+
