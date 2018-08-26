@@ -367,25 +367,29 @@ body{
 	font-size: 16px;
 }
 
+#links {
+	margin-top: 10px;
+}
+
 .link1  {
 	font-weight: 500;
 	margin-right: 15px;
 	margin-top: 20px;
-	color: #77b3fde0;
+	color: #0080ffe0;
 }
 
 .link1:hover {
-	color: #77b4fd;
+	color: #0080ff;
 }
 
 .link2 {
 	font-weight: 500;
 	margin-left: 15px;
-	color: #a5a8d2e0;
+	color: #0080ffe0;
 }
 
 .link2:hover {
-	color: #a5a8d2;
+	color: #0080ff;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -471,7 +475,7 @@ body{
 		padding-top: 25px;
 		padding-bottom: 10px;
 		border-radius: 7px;
-		width: 320px;
+		width: 350px;
 	}
 	
 	.container-code1-2 {
@@ -484,7 +488,7 @@ body{
 		padding-top: 25px;
 		padding-bottom: 10px;
 		border-radius: 7px;
-		width: 320px;
+		width: 350px;
 	}
 
 	#container-code1-2-last {
@@ -516,14 +520,14 @@ body{
 	}
 	
 	.code1-1-title { 
-		margin: 4px 0 3px;
+		margin: 4px 0 5px;
 		padding-top: 3px;
 		text-align: center;
 		font-size: 22px;
 	}
 	
 	.code1-2-title { 
-		margin: 4px 0 3px;
+		margin: 4px 0 5px;
 		padding-top: 3px;
 		text-align: center;
 		font-size: 22px;
@@ -532,12 +536,22 @@ body{
 		line-height: 25px;
 		text-align: left;
 		font-size: 14px;
+		margin-left: 5px;
 	}
 
 	.code-description2 {
 		line-height: 25px;
 		text-align: left;
 		font-size: 14px;
+		margin-left: 5px;
+	}
+
+	.link1  {
+		margin: 0 0 0 50px;
+	}
+
+	.link2 {
+		margin: 0 0 0 50px;
 	}
 }
 
