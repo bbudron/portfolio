@@ -25,6 +25,7 @@ window.onload = function() {
     }
 };
 
+
 document.getElementById("pdf").addEventListener("click", function(){
     window.open('assets/img/resume.pdf', '_blank');
 });
