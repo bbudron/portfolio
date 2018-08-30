@@ -1,3 +1,4 @@
+
 /*
     1 - basic
     2 - nav
@@ -11,6 +12,7 @@
 	baby blue fade	-	#77b3fdc9
 	dark blue		-	#0b0b33
 */
+
 
 /*  1 - basic    */
 div {
@@ -324,6 +326,16 @@ body{
 	order: 2;
 }
 
+.code1-3-image {
+	background-image: url("../img/brandonbudron.jpg");
+	border-radius: 3px;
+	background-size: 275px 245px;
+	min-width: 275px;
+	height: 245px;
+	margin: -35px 0 0 190px;
+	order: 1;
+}
+
 .container-code1-1-information {
 	width: 525px;
 	height: 110%;
@@ -400,6 +412,10 @@ body{
 	.code1-2-image {
 		margin: -35px 100px 0 0;
 	}
+
+	.code1-3-image {
+		margin: -35px 0 0 100px;
+	}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -408,6 +424,10 @@ body{
 	}
 
 	.code1-2-image {
+		margin: -35px 45px 0 0;
+	}
+
+	.code1-3-image {
 		margin: -35px 45px 0 0;
 	}
 }
@@ -430,6 +450,15 @@ body{
 		min-height: 196px;
 		height: 196px;
 		margin: -35px 30px 0 0;
+	}
+
+	.code1-3-image {
+		background-size: 220px 196px;
+		width: 220px;
+		min-width: 220px;
+		height: 196px;
+		min-height: 196px;
+		margin: -35px 0 0 30px;
 	}
 
 	.container-code1-1-information {
@@ -503,6 +532,10 @@ body{
 	.code1-2-image {
 		margin: 0 auto;
 		order: 1;
+	}
+
+	.code1-3-image {
+		margin: 0 auto;
 	}
 	
 	.container-code1-1-information {
