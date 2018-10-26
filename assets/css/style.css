@@ -336,6 +336,17 @@ body{
 	order: 1;
 }
 
+.code1-4-image {
+	background-image: url("../img/personalplanner.jpg");
+	border-radius: 3px;
+	background-size: 275px 245px;
+	min-width: 275px;
+	height: 245px;
+	float: left;
+	margin: -35px 190px 0 0;
+	order: 2;
+}
+
 .container-code1-1-information {
 	width: 525px;
 	height: 110%;
@@ -416,6 +427,10 @@ body{
 	.code1-3-image {
 		margin: -35px 0 0 100px;
 	}
+
+	.code1-4-image {
+		margin: -35px 100px 0 0;
+	}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -428,6 +443,10 @@ body{
 	}
 
 	.code1-3-image {
+		margin: -35px 0 0 45px;
+	}
+
+	.code1-4-image {
 		margin: -35px 45px 0 0;
 	}
 }
@@ -459,6 +478,15 @@ body{
 		height: 196px;
 		min-height: 196px;
 		margin: -35px 0 0 30px;
+	}
+
+	.code1-4-image {
+		background-size: 220px 196px;
+		width: 220px;
+		min-width: 220px;
+		min-height: 196px;
+		height: 196px;
+		margin: -35px 30px 0 0;
 	}
 
 	.container-code1-1-information {
@@ -536,6 +564,11 @@ body{
 
 	.code1-3-image {
 		margin: 0 auto;
+	}
+
+	.code1-4-image {
+		margin: 0 auto;
+		order: 1;
 	}
 	
 	.container-code1-1-information {
