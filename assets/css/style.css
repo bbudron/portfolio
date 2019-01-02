@@ -205,6 +205,10 @@ body{
 	text-align: justify;
 }
 
+.link {
+	cursor: pointer;
+}
+
 .contact-links {
 	display: flex;
 	flex-flow: row nowrap;
